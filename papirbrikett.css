@@ -1,11 +1,11 @@
 body{
   padding: 15px;
-  color: blue;
-  line-height: 110%;
+  color: #1F3F5F;
+  line-height: 125%;
+  background-image: url("hatterkep.png");
 }
 
 h1{
-
   margin: 10px 0px 40px;
 }
 
@@ -20,6 +20,8 @@ h1, h2{
   background-color: #EBEBEB;
   padding: 10px 35px;
   font-size: 75%;
+  border-top: #3F4F5F solid 1px;
+  border-bottom: #3F4F5F solid 1px;
 }
 
 #brikettek{
@@ -54,6 +56,7 @@ p:first-letter{
 }
 
 .kiemelt{
+  font-weight: bold;
   font-style: italic;
 }
 
